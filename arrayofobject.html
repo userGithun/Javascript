@@ -1,0 +1,18 @@
+<script>
+    var student = [
+        { name: 'ram', age: 15 },
+        { name: 'karan', age: 13 },
+        { name: 'rahul', age: 14 },
+        { name: 'abc', age: 14 },
+    ];
+    // document.write(student)
+    // console.log(student);
+
+    // for(var a=0; a<student.length; a++){                  //purana tarika
+    //     document.write(student[a].name+" "+ student[a].age+"<br>")
+    // }
+
+    student.forEach((item) => {
+        document.write(item.name + " " + item.age +"<br>")
+    })
+</script>
